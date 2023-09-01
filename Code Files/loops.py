@@ -1,3 +1,5 @@
+# Add fruits in your bucket till you say done
+# While loop
 fruits = ''
 bucket = []
 
@@ -8,4 +10,12 @@ while fruits != "done":
     else:
         print(bucket)
 
-# Add fruits in your bucket till you say done
+# for loops
+
+countries = {
+    'symbol' : ['pk', 'ind', 'ch', 'nz', 'sg', 'uae', 'usa', 'aus'],
+    'currency' : ['Rs', 'Rs', 'Yun', 'Nz Dollar', 'Sg Dollar', 'Dirham', 'Dollar', 'Aus Dollar']
+}
+
+for item in countries['currency']:
+    print(item)
